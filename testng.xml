@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+  <test name="All Tasks">
+    <classes>
+      <class name="tests.LoginTest"/>
+      <class name="tests.TableTest"/>
+      <class name="tests.AlertTest"/>
+      <class name="tests.FileUploadTest"/>
+    </classes>
+  </test>
+</suite>
